@@ -379,7 +379,11 @@ type PartialSecurityContext struct {
 type PartialAdminListeners struct {
 	External    PartialExternalListeners[PartialAdminExternal] "json:\"external,omitempty\""
 	Port        *int32                                         "json:\"port,omitempty\" jsonschema:\"required\""
+<<<<<<< HEAD
 	AppProtocol *string                                        "json:\"appProtocol,omitempty\""
+=======
+	AppProtocol *string                                        "json:\"appProtocol,omitempty\" jsonschema:\"required\""
+>>>>>>> 605fc80 (changing the json property name)
 	TLS         *PartialInternalTLS                            "json:\"tls,omitempty\" jsonschema:\"required\""
 }
 

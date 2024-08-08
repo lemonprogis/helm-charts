@@ -1053,6 +1053,10 @@
           },
           "required": [
             "port",
+<<<<<<< HEAD
+=======
+            "appProtocol",
+>>>>>>> 605fc80 (changing the json property name)
             "tls"
           ],
           "type": "object"
